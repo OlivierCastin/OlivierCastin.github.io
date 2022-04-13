@@ -1,0 +1,652 @@
+@font-face {
+    font-family:'Roboto';
+    src: url('/Site_Perso_1/Font/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2{
+    background: #4CB8C4;
+    color: white;            
+    box-shadow: 0 0 20px rgb(196, 196, 196);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    text-align: center;
+    font-family:roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 100%;
+    background-color: #ecfffd;
+    font-family:roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+/* ============== Mise en forme du haut du Header ============== */
+.sticky .content {
+  padding-top: 102px;
+  }
+
+ #sticky {
+  position: fixed;
+  top: 0;
+  width:80%;
+  background-color:#ecfffd ;
+  z-index: 200;
+  padding-top: 20px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+  
+}
+.navigation{
+    width: 65%; 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.logo img:hover{
+    transform : rotate(360deg);
+    transition: 2s;
+
+}
+
+.logo img{
+    height: 100px;
+    transition: 2s;
+
+
+}
+
+.navigation ul{
+    width: 100%; 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 0;
+    padding-top: auto;
+    padding-bottom: auto;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.navigation ul li{
+    
+    color: #ffffff;
+    text-decoration : none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding:0 5px 5px 5px;
+    margin-top: 20px;
+}
+
+.select{
+border-bottom:  #ffffff solid 3px;
+}
+
+.myHeader1{
+  background-color: #264653b9;
+    }
+  .extraHeader1{
+    background-image: url("/Site_Perso_1/img/Accueil2.jpg") ;
+    background-position: center;
+    height: 400px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 50px ;
+  }
+.myHeader2{
+    background-color: #264653b9;
+    ;
+    }
+.extraHeader2{
+  background-image: url("/Site_Perso_1/img/Accueil\ blog.jpg") ;
+  background-position: center;
+  height: 400px;
+  border-radius: 0 0 20px 20px;
+    margin-bottom: 50px ;
+    
+    }
+
+.myHeader3{
+      background-color: #264653b9
+      }
+  .extraHeader3{
+        background-image: url("/Site_Perso_1/img/Accueil\ parcours.jpg") ;
+        background-position: center;
+        height: 400px;
+        border-radius: 0 0 20px 20px;
+        margin-bottom: 50px ;
+      }
+
+.myHeader4{
+background-color: #264653b9
+}
+.extraHeader4{
+  background-image: url("/Site_Perso_1/img/Accueil\ outils.jpg") ;
+  background-position: center;
+  height: 400px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 50px ;
+}
+.myHeader5{
+  background-color: #264653b9
+  }
+  .extraHeader5{
+    background-image: url("/Site_Perso_1/img/Accueil\ contact.jpg") ;
+    background-position: center;
+    height: 400px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 50px ;
+  }
+
+.navigation .vertical_bar{
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+.navigation .vertical_bar:hover{
+  color: #ffffff;
+
+}
+.navigation ul a{
+    text-decoration : none;
+
+}
+.navigation ul li:hover{
+    color: #4CB8C4;
+    font-weight: bold;
+    
+}
+
+/* ============== Mise en forme de la partie 1 "intruduction ============== */
+.introduction{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+      flex-wrap: wrap;
+}
+
+.image_Moi{
+    display: block;
+    align-self:center;
+    justify-content: left;
+    padding-left: 10px;
+     }
+
+.image_Moi img{
+  
+  transition: 0.5s;
+  box-shadow: 0 0 20px rgb(196, 196, 196);
+  border-radius: 20px;  
+}
+
+.image_Moi img:hover{
+        transform : scale(1.1) rotate(-4deg);
+        transition: 0.5s;
+    
+    }
+
+h1{
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color : linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+}
+.text_intro {
+    width: 65%;
+    text-align: left;
+    color: #264653;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+p {
+  font-size: 1.2em;
+
+}
+
+.Button_En_Savoir_Plus {
+  background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%)
+}
+
+  .Button_En_Savoir_Plus {
+   border: 0;
+   height: 50px;
+   width: 150px;
+   margin: 10px 0 0 0 ;
+   text-align: center;
+   text-transform: uppercase;
+    font-weight: bold;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgb(196, 196, 196);
+   border-radius: 7px;
+   font-size: 0.9em;
+   align-self: end;
+
+ }
+
+ .Button_En_Savoir_Plus:hover {
+   background-position: right center; /* change the direction of the gradiant */
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer ;
+   font-size: 1.05em;
+   border-radius: 14px;
+ }
+
+ /* ============== Mise en forme de la partie Blog ============== */
+
+.blog{
+  margin-top: 50px;
+ }
+
+.Blog1{
+  display: flex; 
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
+.blog_presentation{
+  width: 65%;
+  text-align: left;
+  color: #264653;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin-left: 15px;
+  margin-right: 10px;
+
+}
+
+ .Blog_illustration{
+  display: block;
+  align-self: center;
+  justify-content: left;
+  padding-left: 10px;
+   }
+ 
+.Blog1 img{
+  transition: 0.5s;
+  box-shadow: 0 0 20px rgb(196, 196, 196);
+  border-radius: 20px;  
+  width: 200px;
+}
+
+.Blog1 img:hover{
+  transform : scale(1.1) rotate(-4deg);
+  transition: 0.5s;
+}
+
+
+ /* ============== Mise en forme de la partie footer ============== */
+footer h3{
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+footer{
+  width: 100%;
+  background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px 20px 75px 20px;
+  margin-top: 50px;
+  color: #fff;
+  border-radius: 20px 20px 0 0;
+  
+}
+
+footer .about-me {
+  width: 50%;
+}
+
+.logo-reseaux{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo-reseaux img{
+  height: 40px;
+  }
+.Logo_linkedIn{
+  margin-right: 10px;
+}
+
+ /* ============== Mise en forme de la page "Mon parcours" ============== */
+
+ /*  Mise en forme de la partie fonctions actuelles */
+*{
+  box-sizing: border-box;
+}
+
+.Mes_Fonctions_Actuelles{
+    margin-top: 50px;
+    
+}
+.Mes_Fonctions_Actuelles a{
+  color:white;
+  text-decoration: none;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.Timeline a  {
+  color:white;
+  text-decoration: none;
+}
+
+.Fonctions_Actuelles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.Fonctions_Actuelles1 {
+    color: #fff;
+    background: #264653;
+    border-radius: 5px;
+    width: calc(50% - 40px);
+    padding: 20px;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 5px #1c4347a2;
+
+}
+.Fonctions_Actuelles span {
+    padding-left: 5px;
+}
+.Fonctions_Actuelles2 {
+    color: #fff;
+    background: #264653;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 5px #1c4347a2;
+}
+
+.Fonctions_Actuelles_colonne2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(50% - 40px);
+    
+    }
+
+ /* Mise en forme de la timeline "fonction passées" */
+
+ .timeline{
+     margin-top: 100px;
+ }
+
+.wrapper{
+  max-width: 1080px;
+  margin: 20px auto;
+  padding: 0 20px;
+  position: relative;
+}
+.wrapper .center-line{
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  background: #4CB8C4;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+}
+.wrapper .row{
+  display: flex;
+}
+.wrapper .row-1{
+  justify-content: flex-start;
+}
+.wrapper .row-2{
+  justify-content: flex-end;
+}
+.wrapper .row section{
+    color: #fff;
+  background: #264653;
+  border-radius: 5px;
+  width: calc(50% - 40px);
+  padding: 20px;
+  position: relative;
+}
+.wrapper .row section::before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #264653;
+  top: 28px;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+.row-1 section::before{
+  right: -7px;
+}
+.row-2 section::before{
+  left: -7px;
+}
+.row section .icon,
+.center-line .scroll-icon{
+  position: absolute;
+  background: #ffffff;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  border: #4CB8C4 solid 5px;
+  color: #12232e;
+  font-size: 17px;
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+}
+.center-line .scroll-icon{
+  bottom: 0px;
+  left: 50%;
+  font-size: 25px;
+  transform: translateX(-50%);
+}
+.row-1 section .icon{
+  top: 15px;
+  right: -60px;
+}
+.row-2 section .icon{
+  top: 15px;
+  left: -60px;
+}
+.row section .details,
+.row section .bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row section .details .title{
+  font-size: 22px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+.row section p{
+  margin: 10px 0 17px 0;
+}
+.bottom button{
+  text-decoration: none;
+  background: #4CB8C4;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  margin-left:5px ;
+}
+.bottom button:hover{
+  background-color:#4cb8c4a8 ;
+}
+
+.row section .bottom a:hover{
+  transform: scale(0.97);
+}
+/* gestion des popup */
+
+.popup{
+  display: none;
+  position: absolute;
+  height: auto;
+  width: 40%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px #1c4347a2;
+  padding: 15px;
+  color: #12232e;
+  z-index: 1;
+  }
+
+.btnclose{
+  cursor: pointer;
+  float: right;
+  background-color:#12232e;
+  border-radius: 10px;
+  color: #ffffff;
+
+}
+#btnclose:hover{
+  background-color:#213d50;
+}
+
+#popup4{
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+
+}
+.MyAirtable2{
+  height:500px;
+  width: 100%;
+  position:relative;
+  border: none;
+  margin-bottom: 10px;}
+
+/* fin de gestion des popup */
+
+@media(max-width: 790px){
+  .wrapper .center-line{
+    left: 40px;
+  }
+  .wrapper .row{
+    margin: 30px 0 3px 60px;
+  }
+  .wrapper .row section{
+    width: 100%;
+  }
+  .row-1 section::before{
+    left: -7px;
+  }
+  .row-1 section .icon{
+    left: -60px;
+  }
+  .Fonctions_Actuelles{
+    display: flex;
+    flex-direction: column;
+  }
+  .Fonctions_Actuelles1{
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .Fonctions_Actuelles_colonne2{
+    width: auto;
+  }
+}
+@media(max-width: 440px){
+  .wrapper .center-line,
+  .row section::before,
+  .row section .icon{
+    display: none;
+  }
+  .wrapper .row{
+    margin: 10px 0;
+  }
+}
+
+/* Gestion du blog  */
+.iframe{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.Mynotion{
+  width: 100%;
+  height:900px;
+  border: none;
+  overflow: hidden;
+  position:relative;
+  margin-top: -300px;
+  background: transparent; 
+
+  }
+
+.MyAirtable1{
+  position:relative;
+  width: 100%;
+  height:900px;
+  border: none;
+  overflow: hidden;
+  position:relative;
+  margin-bottom: -25px;
+  background: transparent; 
+
+}
+
+.chargement{
+  display: block;
+  position: relative;
+  float:inline-start;
+  top: 80% ;
+  left:50%;
+  z-index: -2
+}
+.MyAirtable2{
+  width: 100%;
+  height: 750px;
+  background:transparent; 
+  border: 0px solid #ccc
+}

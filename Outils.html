@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castin Olivier</title>
+    <link rel="stylesheet" href="/Site_Perso_1/styles.css" />
+    <link rel="shortcut icon" href="/Site_Perso_1/img/Logo1.png" />
+  </head>
+  <body>
+    <div class="extraHeader4">
+      <header id="myHeader" class="myHeader4">
+        <div class="logo">
+          <img src="/Site_Perso_1/img/Logo1.png" alt="Logo1" />
+        </div>
+        <!-- Navigation -->
+        <nav class="navigation">
+          <ul>
+            <a href="/Site_Perso_1/index.html"><li>Accueil</li></a>
+            <li class="vertical_bar"><b>|</b></li>
+            <a href="/Site_Perso_1/blog.html"><li>Blog</li></a>
+            <li class="vertical_bar"><b>|</b></li>
+            <a href="/Site_Perso_1/Mon_Parcours.html"><li>Mon parcours</li></a>
+            <li class="vertical_bar"><b>|</b></li>
+            <a href="/Site_Perso_1/Outils.html"class="select"><li>Des outils</li></a>
+            <li class="vertical_bar"><b>|</b></li>
+            <a href="/Site_Perso_1/Contact.html"><li>Contact</li></a>        </ul>
+        </nav>
+      </header>
+    </div>
+    
+    <main>
+      <p>Ci-dessous, une base de données dans laquelle j’intègre petit à petit les outils et les ressources que je découvre. 
+        <br> Sentez-vous libre de proposer de nouveaux outils à y intégrer via la formulaire ci-dessous</p>
+        <div class="bottom">
+          <button id="btnpopup4" class="btnpopup4">Proposer un outil</button>
+            <div id="popup4" class="popup">
+              <iframe src="https://airtable.com/embed/shreXoYsHXMARpjzP?backgroundColor=cyan" class="MyAirtable2"></iframe>
+              <button id="btnclose4" class="btnclose"> Fermer </button>
+            </div>
+            <!-- script du bouton popup "Proposer un outil" -->
+            <script>
+              var btnpopup4 = document.getElementById('btnpopup4');
+              var popup4 = document.getElementById('popup4');
+              var btnclose4 = document.getElementById('btnclose4');
+
+              btnpopup4.addEventListener('click',openpopup4);
+              function openpopup4(){
+                  popup4.style.display = "block";
+              }           
+
+              btnclose4.addEventListener('click',close4);
+              function close4(){
+                  popup4.style.display = 'none';
+                }
+            </script>
+        </div>
+        <br>
+        <div class="iframe">
+            <!-- <div class="chargement">
+              <img src="/Site_Perso_1/img/loader.gif" alt="Chargement...">
+            </div> -->
+            <iframe src=https://airtable.com/embed/shrRTlLKoeR4tgoPe/tblC8wdRXJgu0UdZc?backgroundColor=cyan&viewControls=on class="MyAirtable1"></iframe>
+        </div>
+</main>
+    <footer>
+      <section class="about-me">
+        <h3>Castin Olivier</h3>
+        <p>See you soon !</p>
+      </section>
+      <section class="reseaux">
+        <h3>Réseaux</h3>
+        <div class="logo-reseaux">
+          <a
+            href="https://www.linkedin.com/in/castinolivier/"
+            target="_blank"
+            class="Logo_linkedIn"
+            ><img src="/Site_Perso_1/img/LinkedIn.png" alt="LinkedIn"
+          /></a>
+          <a href="mailto:castin.olivier@gmail.com" target="_blank"
+            ><img src="/Site_Perso_1/img/eMail.png" alt="email"
+          /></a>
+        </div>
+      </section>
+    </footer>
+
+  </body>
+</html>
