@@ -1,6 +1,6 @@
 @font-face {
     font-family:'Roboto';
-    src: url('/Site_Perso_1/Font/Roboto/Roboto-Regular.ttf') format('truetype');
+    src: url('Font/Roboto/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -118,7 +118,7 @@ border-bottom:  #ffffff solid 3px;
   background-color: #264653b9;
     }
   .extraHeader1{
-    background-image: url("/Site_Perso_1/img/Accueil2.jpg") ;
+    background-image: url("/img/Accueil2.jpg") ;
     background-position: center;
     height: 400px;
     border-radius: 0 0 20px 20px;
@@ -129,7 +129,7 @@ border-bottom:  #ffffff solid 3px;
     ;
     }
 .extraHeader2{
-  background-image: url("/Site_Perso_1/img/Accueil\ blog.jpg") ;
+  background-image: url("/img/Accueil\ blog.jpg") ;
   background-position: center;
   height: 400px;
   border-radius: 0 0 20px 20px;
@@ -141,7 +141,7 @@ border-bottom:  #ffffff solid 3px;
       background-color: #264653b9
       }
   .extraHeader3{
-        background-image: url("/Site_Perso_1/img/Accueil\ parcours.jpg") ;
+        background-image: url("/img/Accueil\ parcours.jpg") ;
         background-position: center;
         height: 400px;
         border-radius: 0 0 20px 20px;
@@ -152,7 +152,7 @@ border-bottom:  #ffffff solid 3px;
 background-color: #264653b9
 }
 .extraHeader4{
-  background-image: url("/Site_Perso_1/img/Accueil\ outils.jpg") ;
+  background-image: url("/img/Accueil\ outils.jpg") ;
   background-position: center;
   height: 400px;
   border-radius: 0 0 20px 20px;
@@ -162,7 +162,7 @@ background-color: #264653b9
   background-color: #264653b9
   }
   .extraHeader5{
-    background-image: url("/Site_Perso_1/img/Accueil\ contact.jpg") ;
+    background-image: url("/img/Accueil\ contact.jpg") ;
     background-position: center;
     height: 400px;
     border-radius: 0 0 20px 20px;
